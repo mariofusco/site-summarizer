@@ -12,6 +12,12 @@ This project uses a LLM to automatically generate the summarization of a blog po
 java -jar --enable-preview --enable-native-access=ALL-UNNAMED --add-modules jdk.incubator.vector target/quarkus-app/quarkus-run.jar https://www.infoq.com/articles/native-java-quarkus/
 ```
 
+or use the `summarize.java` script that will automatically handle it all using JBang:
+
+```shell
+jbang summarize.java https://www.infoq.com/articles/native-java-quarkus/
+```
+
 that will generate an output like the following:
 
 ```
