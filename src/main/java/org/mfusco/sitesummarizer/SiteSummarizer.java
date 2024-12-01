@@ -29,7 +29,13 @@ class SiteSummarizer {
                 LOGGER.info("Summarizing content " + content.length() + " characters long");
                 return summarizerAiService.summarize(content);
             } catch (Exception e) {
-                content = content.substring(0, content.length() - 1_000);
+                if (content.length() > 1_000) {
+                    content = content.substring(0, content.length() - 1_000);
+                } else {
+                   // just keep it as it s too short to summarize
+                   return Multi.createFrom().item(content);
+
+                }
             }
         }
     }

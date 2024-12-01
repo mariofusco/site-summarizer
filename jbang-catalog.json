@@ -1,0 +1,10 @@
+{
+  "catalogs": {},
+  "aliases": {
+    "doit": {
+      "script-ref": "summarize.java",
+      "java-agents": []
+    }
+  },
+  "templates": {}
+}
