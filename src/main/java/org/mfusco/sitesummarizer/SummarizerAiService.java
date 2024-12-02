@@ -2,6 +2,7 @@ package org.mfusco.sitesummarizer;
 
 import dev.langchain4j.service.SystemMessage;
 import dev.langchain4j.service.UserMessage;
+import dev.langchain4j.service.V;
 import io.quarkiverse.langchain4j.RegisterAiService;
 import io.smallrye.mutiny.Multi;
 import jakarta.inject.Singleton;
@@ -14,5 +15,5 @@ public interface SummarizerAiService {
     @UserMessage("""
                 Here's the text: '{text}'
             """)
-    Multi<String> summarize(String text);
+    Multi<String> summarize(@V("text") String text);
 }
