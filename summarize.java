@@ -3,11 +3,11 @@
 //PREVIEW
 //JAVA_OPTIONS --enable-native-access=ALL-UNNAMED
 //MODULES jdk.incubator.vector
-//DEPS io.quarkus.platform:quarkus-bom:3.16.4@pom
+//DEPS io.quarkus.platform:quarkus-bom:3.17.2@pom
 //DEPS io.quarkus:quarkus-rest
 //DEPS io.quarkus:quarkus-arc
 //DEPS io.quarkus:quarkus-smallrye-openapi
-//DEPS io.quarkiverse.langchain4j:quarkus-langchain4j-jlama:0.22.0.CR2
+//DEPS io.quarkiverse.langchain4j:quarkus-langchain4j-jlama:0.22.0
 //DEPS com.github.tjake:jlama-core:0.8.2
 //DEPS com.github.tjake:jlama-native:0.8.2
 //DEPS org.jsoup:jsoup:1.18.1
