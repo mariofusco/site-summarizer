@@ -3,6 +3,7 @@
 The purpose of this project is demonstrating how [Quarkus](https://quarkus.io/), [Langchain4j](https://docs.langchain4j.dev/) and [Jlama](https://github.com/tjake/Jlama) make straightforward to create a pure Java LLM infused application, where the LLM inference is directly embedded in the same JVM running the application, without the need of any external service. 
 
 [![Watch the video](https://raw.githubusercontent.com/mariofusco/site-summarizer/main/images/thumbnail.png)](https://raw.githubusercontent.com/mariofusco/site-summarizer/main/images/summarization_video.mp4)
+[Watch the video](https://raw.githubusercontent.com/mariofusco/site-summarizer/main/images/summarization_video.mp4)
 
 Out-of-the-box this project uses a [small Llama-3.2 model with 4-bit quantization](https://huggingface.co/tjake/Llama-3.2-1B-Instruct-JQ4). When the application is compiled for the first time the model is automatically downloaded locally by Jlama from the Huggingface repository. However it is possible to replace this model and experimenting with any other one by simply editing the `quarkus.langchain4j.jlama.chat-model.model-name` property in the `application.properties` file.  
 
