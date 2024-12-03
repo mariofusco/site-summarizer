@@ -1,6 +1,7 @@
 ///usr/bin/env jbang "$0" "$@" ; exit $?
 //JAVA 21+
 //PREVIEW
+//JAVAC_OPTIONS -parameters
 //JAVA_OPTIONS --enable-preview --enable-native-access=ALL-UNNAMED --add-modules jdk.incubator.vector
 //MODULES jdk.incubator.vector
 //DEPS io.quarkus.platform:quarkus-bom:3.17.2@pom
