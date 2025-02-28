@@ -13,13 +13,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
         <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-        <quarkus.platform.version>3.17.2</quarkus.platform.version>
-        <quarkus.langchain4j.version>0.22.0</quarkus.langchain4j.version>
+        <quarkus.platform.version>3.19.1</quarkus.platform.version>
+        <quarkus.langchain4j.version>0.25.0</quarkus.langchain4j.version>
         <org.jsoup.version>1.18.1</org.jsoup.version>
         <com.knuddels.jtokkit.version>0.6.1</com.knuddels.jtokkit.version>
         <skipITs>true</skipITs>
         <surefire-plugin.version>3.5.2</surefire-plugin.version>
-        <jlama.version>0.8.2</jlama.version>
+        <jlama.version>0.8.4</jlama.version>
     </properties>
     <dependencyManagement>
         <dependencies>
